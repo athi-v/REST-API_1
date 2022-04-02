@@ -13,7 +13,7 @@ app.use(bodyParser.urlencoded({
 }));
 app.use(express.static("public"));
 
-mongoose.connect("mongodb://localhost:27017/studentsDB", 
+mongoose.connect("mongodb+srv://admin-athi:test123@cluster0.uempm.mongodb.net/studentsDB", 
 {useNewUrlParser: true,
     useUnifiedTopology: true});
 
